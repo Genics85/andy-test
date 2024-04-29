@@ -13,9 +13,9 @@ function App() {
   };
 
   return (
-    <div className=" text-gray-600 font-semibold w-screen h-screen gap-10  flex items-center justify-center">
-      <div className=" p-10 w-[500px] h-[400px] border-[3px] rounded-md border-gray-500">
-        <div className={`${swap ? "hidden" : "flex"} justify-between w-full `}>
+    <div className=" text-gray-600 px-4 font-semibold w-screen h-screen gap-10  flex flex-col md:flex-row items-center justify-center">
+      <div className=" p-10 w-full  md:w-[500px] h-[400px] border-[3px] rounded-md border-gray-500">
+        <div className={`${swap ? "hidden" : "flex"}  justify-between w-full `}>
           <div className="flex flex-col gap-5 items-center">
             <p>Token Name</p>
             <div className="items flex flex-col gap-4">
@@ -36,7 +36,7 @@ function App() {
             swap == true ? "flex" : "hidden"
           } items-center justify-center h-full w-full`}
         >
-          <p>All Shitcoins Swapped Successfuly</p>
+          <p>All Shitcoins Swapped Successfuly!</p>
         </div>
       </div>
       <button
