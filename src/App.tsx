@@ -39,7 +39,7 @@ function App() {
     let isChecked = e.target.checked;
 
     if (isChecked) {
-      let ids = tokens.map((item, i) => item.id);
+      let ids = tokens.map((item, _) => item.id);
       setSelectAll(true);
       setSelected(ids);
       return;
