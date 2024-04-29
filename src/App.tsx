@@ -37,7 +37,6 @@ function App() {
 
   const handleSelectAll = (e: ChangeEvent<HTMLInputElement>) => {
     let isChecked = e.target.checked;
-    console.log(isChecked);
 
     if (isChecked) {
       let ids = tokens.map((item, i) => item.id);
