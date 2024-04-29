@@ -81,6 +81,7 @@ function App() {
           </div>
           <div className="flex flex-col gap-5 items-center">
             <p>Amount</p>
+            <p>_</p>
             <div className="items flex flex-col gap-4">
               {tokens.map((token, i) => {
                 return <p key={i}>{token.amount}</p>;
